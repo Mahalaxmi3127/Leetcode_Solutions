@@ -10,9 +10,7 @@ public:
                 maxi = max(maxi,one_count);
                 one_count=0;
             }
-
         }
-        return max(maxi,one_count);
-        
+        return max(maxi,one_count);  
     }
 };
